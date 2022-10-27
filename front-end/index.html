@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div>
+      <ul>
+        <li><a class="active" href="#company">Company</a></li>
+        <li>
+          <a href="#contacts">Contacts<span class="badge">84</span></a>
+        </li>
+        <li>
+          <a href="#pipeline">Pipeline<span class="badge">42</span></a>
+        </li>
+        <li class="nav-right"><a href="#logout">Logout</a></li>
+        <li class="nav-right"><a href="#profile">Profile</a></li>
+        <li class="nav-right"><a href="#setting">Settings</a></li>
+      </ul>
+    </div>
+    <div>
+      <form id="form" class="search">
+        <input
+          class="search-input"
+          type="search"
+          id="query"
+          placeholder="Search"
+        />
+        <button class="search-button">Search</button>
+      </form>
+    </div>
+    <div class="grid-container">
+      <div class="grid-item tab">
+        <table width="100%">
+          <tr>
+            <th>ID</th>
+            <th scope="col">Contact</th>
+          </tr>
+
+          <tr>
+            <td>1</td>
+            <td>Monica Geller</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>Phoebe Buffay</td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>John Smith</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Phoebe Buffay</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>John Smith</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Chandler Bing</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Phoebe Buffay</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>John Smith</td>
+          </tr>
+        </table>
+      </div>
+      <div class="grid-item">
+        <div class="section">
+          <div class="contact">Contact Details</div>
+          <table class="form">
+            <form>
+              <tr>
+                <td>
+                  <label for="id">ID</label>
+                </td>
+                <td><input type="text" id="id" /></td>
+              </tr>
+              <tr>
+                <td><label for="fname">First Name</label></td>
+                <td><input type="text" id="fname" /></td>
+              </tr>
+              <tr>
+                <td><label for="lname">Last Name</label></td>
+                <td><input type="text" id="lname" /></td>
+              </tr>
+              <tr>
+                <td><label for="email">Email Address</label></td>
+                <td><input type="email" id="email" /></td>
+              </tr>
+              <tr>
+                <td><label for="phone">Phone</label></td>
+                <td><input type="number" id="phone" /></td>
+              </tr>
+            </form>
+          </table>
+        </div>
+        <div class="section">
+          <div class="contact">Linked Entities</div>
+          <div class="tab">
+            <table class="table" width="100%">
+              <tr>
+                <th>ID</th>
+                <th scope="col">Entity Type</th>
+                <th scope="col">Entity Name</th>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>Person</td>
+                <td>Monica Geller</td>
+              </tr>
+
+              <tr>
+                <td>2</td>
+                <td>Person</td>
+                <td>Phoebe Buffay</td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td>Organisation</td>
+                <td>John Smith</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Organisation</td>
+                <td>John Smith</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Location</td>
+                <td>John Smith</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="section">
+          <div class="contact">Notes</div>
+          <textarea name="textbox1" readonly rows="4" cols="65" class="notes">
+Working as a chef, would love to have her own restaurant one day, has spent 2 years at Javu and Alessandros, sister of Ross Geller, married to Chandler Bing, was Rachel Greene's roommate for a long time.</textarea
+          >
+          <div class="section">
+            <div class="contact">Comments, Activity</div>
+            <textarea name="textbox2" rows="4" cols="60" class="comments">
+Had a chat with her today - her mahi-mahi soup was awesome, not sure what problem the critic had with it. Definitely worth hiring, she'll take our restaurant places.</textarea
+            >
+            <textarea name="textbox3" cols="60" class="comments">
+Similar views to John - totally onboard with getting her as the head chef. I cant think of our food as it is today.</textarea
+            >
+            <textarea name="textbox4" cols="60" class="comments">
+As her husband, I totally agree. :)</textarea
+            >
+          </div>
+        </div>
+        <div class="buttons">
+          <button type="button" class="edit common-button">Edit</button>
+          <button type="button" class="save common-button">Save</button>
+          <button type="button" class="cancel common-button">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="index.js"></script> -->
+  </body>
+</html>

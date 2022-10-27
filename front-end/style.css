@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #727272;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: black;
+  color: #ffffff;
+}
+.nav-right {
+  float: right;
+}
+
+.badge {
+  background-color: red;
+  color: white;
+  border-radius: 40%;
+  padding: 0px 5px;
+  margin: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  padding: 10px;
+  gap: 15px;
+}
+.grid-item {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.section {
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: whitesmoke;
+}
+
+.contact {
+  border-bottom: 1px solid black;
+}
+.wrapper {
+  background-color: whitesmoke;
+  list-style-type: none;
+  padding: 0;
+  border-radius: 3px;
+}
+.tab table {
+  border: 1px solid black;
+  margin-top: 10px;
+}
+.tab table tr,
+.tab table td,
+.tab table th {
+  border: 1px solid black;
+}
+
+.notes {
+  background-color: whitesmoke;
+  padding: 30px 10px 30px 10px;
+  margin: 10px 0px 10px 0px;
+}
+.comments {
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 100px 0px 100px;
+}
+.common-button {
+  padding: 5px;
+  border-radius: 10%;
+  width: 70px;
+  cursor: pointer;
+}
+.save {
+  background-color: #ffe6cc;
+  border: 2px solid #e5c573;
+}
+.cancel {
+  background-color: #dae8fc;
+  border: 2px solid #93add2;
+}
+.edit {
+  background-color: #e1d5e7;
+  border: 2px solid #aa8eb7;
+}
+.form input {
+  margin: 2px 2px 2px 15px;
+  padding: 5px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.search-input {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 0.5px solid black;
+  width: 500px;
+}
+.search-button {
+  background-color: #3d8bcd;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 18px;
+}
